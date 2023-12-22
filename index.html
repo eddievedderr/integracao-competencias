@@ -6,13 +6,19 @@
     <title>Stopify - Your Music App</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
-  <h1>Listen to your favourite music here</h1>
-  <h2>Millions of artists available</h2>
+    <nav id="logo">
+        <h1>Stopify</h1>
+    </nav>
+
+    <div class="first">
+  <h3>Listen to your favourite music here</h3>
+  <h4>Millions of artists available</h4>
+</div>
 
     <hr>
 
@@ -21,12 +27,12 @@
 <h4>Create your user</h4>
 
 <label for="name">What´s your name?</label>
-<input type="text" name="name" id="name">
+<input type="text" name="name" id="name" required>
 
 <br>
 
 <label for="age">How old are you?</label>
-<select name="age" id="age">
+<select name="age" id="age" required>
 <option value="select">Select</option>
 <option value="14-18">14-18</option>
 <option value="19-22">19-22</option>
@@ -39,28 +45,28 @@
 <br>
 
 <label for="email">Your email address</label>
-<input type="email" name="email" id="email">
+<input type="email" name="email" id="email" required>
 
 <br>
 
 <label for="password">Create a password</label>
-<input type="password" name="password" id="password">
+<input type="password" name="password" id="password" required>
 
 <br>
 
 <label for="password">Confirm your password</label>
-<input type="password" name="confirm" id="confirm">
+<input type="password" name="confirm" id="confirm" required>
 
 <br>
 
-<button id="go">Let's get started</button>
+<button id="go" href="C:\Users\art0062023\integracao-competencias\cadastro 2\index.html">Let's get started</button>
 
 <br>
 
 <p>Already have an account?</p>
 <a href="#">Login here</a>
 
-    <script src='./js/main.js'></script>
+    
 
 </body>
 
@@ -74,5 +80,7 @@
    <i class="fa-brands fa-linkedin fa-fw"></i>
    <p>linkedin.com/lucasalvespj on Linkedin <p>
 </footer>
+
+<script src='./js/main.js'></script>
 
 </html>
